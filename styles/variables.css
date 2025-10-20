@@ -6,7 +6,8 @@
     --font-weight-text: 410;
     --font-size-header-title: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
     --font-size-header-subtitle: clamp(14px, 10.831px + 0.845vw, 23px);
-    --gradient-background: 
+    --control-height: 37px;
+    --gradient-background:
       repeating-linear-gradient(90deg, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
       repeating-linear-gradient(#d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
       linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
