@@ -62,7 +62,7 @@
 .article__header {
   font-variation-settings: 'wght' var(--font-weight-header);
   font-size: 18px;
-  line-height: 125%;
+  line-height: 100%;
   margin-inline: 10px;
   margin-block: 4px;
 }
@@ -135,8 +135,12 @@
 
 .button:focus {
   outline: none;
+}
+
+.button:focus-visible {
   box-shadow: 2px 2px 0 0 var(--color-accent);
 }
+
 
 .button::before {
   content: '';
