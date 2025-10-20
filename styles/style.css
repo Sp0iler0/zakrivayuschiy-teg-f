@@ -131,6 +131,7 @@
   min-width: 130px;
   border: 2px solid var(--color-accent);
   transition: box-shadow 0.3s ease;
+  min-block-size: var(--control-height);
 }
 
 .button:focus {
@@ -170,6 +171,7 @@
   background: none;
   border: 2px solid transparent;
   transition: border 0.3s ease;
+  block-size: var(--control-height);
 }
 
 .card__icon-button:focus-visible {
@@ -181,6 +183,7 @@
 
 .like-icon {
   display: block;
+  block-size: 100%;
 }
 
 .filter-gray {

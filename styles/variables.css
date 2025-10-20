@@ -19,4 +19,5 @@
     --color-background: #fff;
     --color-icon-contour: var(--color-accent);
     --color-icon-active: #f00;
+    --control-height: 37px;
 }
